@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fffafc">
+    <meta name="description" content="Bounceland Playground offers children's soft play rentals in Mississauga and nearby service areas.">
+    <title>BOUNCELAND Playground | Soft Play Rentals</title>
+    <link rel="icon" href="assets/images/bounceland-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="translations.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" data-i18n-aria="homeAria" aria-label="Bounceland Playground home">
+        <img class="brand-logo" src="assets/images/bounceland-catalog-logo.png" alt="Bounceland Playground logo" data-i18n-alt="brandLogoAlt">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-i18n-aria="menuOpen">Menu</button>
+      <nav class="main-nav" id="main-nav" data-i18n-aria="navAria" aria-label="Main navigation">
+        <a href="#packages" data-i18n="navPackages">Packages</a>
+        <a href="#gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#details" data-i18n="navDetails">Details</a>
+        <a href="#faq" data-i18n="navFaq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <label class="language-label" for="language-select" data-i18n="languageLabel">Language</label>
+        <select id="language-select" data-i18n-aria="languageSelectAria" aria-label="Choose language">
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+        <a class="header-cta" href="#booking" data-i18n="navBook">Ask about a booking <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-star">✳</span> <span data-i18n="heroEyebrow">Little guests. Big happy moments.</span></p>
+          <h1 data-i18n-html="heroTitle">A little world<br>of <em>play.</em></h1>
+          <p class="hero-description" data-i18n="heroDescription">Make room for giggles, tiny adventures and memories that last. We bring the soft play fun to your celebration.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#packages"><span data-i18n="heroButton">Explore our packages</span><span aria-hidden="true">↗</span></a>
+            <a class="text-cta" href="#details" data-i18n="heroTextLink">How it works <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-location"><span aria-hidden="true">⌖</span> <span data-i18n="heroLocation">Mississauga, Ontario & nearby</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-blob"></div>
+          <img class="hero-illustration" src="assets/images/catalog-package-1.jpg" alt="Soft play setup from the Bounceland catalog" data-i18n-alt="heroImageAlt">
+          <span class="hero-sticker" data-i18n="heroSticker">Made for<br>little moments</span>
+          <span class="hero-sparkle sparkle-one" aria-hidden="true">✦</span>
+          <span class="hero-sparkle sparkle-two" aria-hidden="true">✳</span>
+          <span class="hero-caption" data-i18n="heroCaption">A happy place to play</span>
+        </div>
+        <a class="hero-scroll" href="#packages"><span aria-hidden="true">↓</span> <span data-i18n="scrollLabel">Scroll to explore</span></a>
+      </section>
+
+      <div class="trust-strip" aria-label="Rental highlights">
+        <span data-i18n="stripOne">Thoughtful play setups</span><i>✳</i>
+        <span data-i18n="stripTwo">Setup & takedown included</span><i>✳</i>
+        <span data-i18n="stripThree">Serving the GTA</span>
+      </div>
+
+      <section class="section packages-section" id="packages">
+        <div class="section-heading">
+          <div><p class="eyebrow" data-i18n="packagesEyebrow">Find your kind of fun</p><h2 data-i18n-html="packagesTitle">Play your <em>way.</em></h2></div>
+          <p data-i18n="packagesDescription">Explore the old catalog as a temporary preview. Package names, included items and prices may change.</p>
+        </div>
+        <p class="catalog-draft-note"><span aria-hidden="true">✳</span> <span data-i18n="catalogDraftNote">Preview only: each old catalog price has CAD $70 added. Confirm all package details before publishing.</span></p>
+        <div class="package-grid">
+          <article class="package-card">
+            <div class="package-picture"><img src="assets/images/catalog-package-1.jpg" alt="Catalog photo for Package One" data-i18n-alt="packageOneImageAlt"></div>
+            <div class="package-content">
+              <div class="package-title-line"><h3 data-i18n="packageOneName">Package One</h3><span class="package-index">01</span></div>
+              <p class="package-description" data-i18n="packageOneDescription">A play setup with a ball pit, tunnel, climber and slide.</p>
+              <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong>CAD $420</strong></p>
+              <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+              <h4 data-i18n="includedLabel">Included equipment</h4>
+              <ul class="equipment-list"><li data-i18n="ballPitFour">4 ft square ball pit</li><li data-i18n="tunnelClimbSlide">Tunnel, climb & slide</li><li data-i18n="twoHoppers">2 hoppers</li><li data-i18n="buildingBlocks">Building blocks</li><li data-i18n="mats">Mats</li><li data-i18n="fences">Fences</li></ul>
+              <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="one"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="package-card">
+            <div class="package-picture"><img src="assets/images/catalog-package-2.jpg" alt="Catalog photo for Package Two" data-i18n-alt="packageTwoImageAlt"></div>
+            <div class="package-content">
+              <div class="package-title-line"><h3 data-i18n="packageTwoName">Package Two</h3><span class="package-index">02</span></div>
+              <p class="package-description" data-i18n="packageTwoDescription">Soft play combined with a 9 × 11 ft bouncy castle.</p>
+              <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong>CAD $520</strong></p>
+              <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+              <h4 data-i18n="includedLabel">Included equipment</h4>
+              <ul class="equipment-list"><li data-i18n="castleNineByEleven">9 × 11 ft bouncy castle</li><li data-i18n="ballPitFour">4 ft square ball pit</li><li data-i18n="tunnelClimbSlide">Tunnel, climb & slide</li><li data-i18n="twoHoppers">2 hoppers</li><li data-i18n="buildingBlocks">Building blocks</li><li data-i18n="mats">Mats</li><li data-i18n="fences">Fences</li></ul>
+              <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="two"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="package-card">
+            <div class="package-picture"><img src="assets/images/catalog-package-3.jpg" alt="Catalog photo for Package Three" data-i18n-alt="packageThreeImageAlt"></div>
+            <div class="package-content">
+              <div class="package-title-line"><h3 data-i18n="packageThreeName">Package Three</h3><span class="package-index">03</span></div>
+              <p class="package-description" data-i18n="packageThreeDescription">A flower-inspired play setup with a larger ball pit and play house.</p>
+              <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong>CAD $420</strong></p>
+              <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+              <h4 data-i18n="includedLabel">Included equipment</h4>
+              <ul class="equipment-list"><li data-i18n="ballPitSix">6 ft square ball pit</li><li data-i18n="climbSlide">Climb & slide</li><li data-i18n="mats">Mats</li><li data-i18n="flowerShape">Flower shape</li><li data-i18n="playHouse">Play house</li></ul>
+              <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="three"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="package-card">
+            <div class="package-picture"><img src="assets/images/catalog-package-4.jpg" alt="Catalog photo for Package Four" data-i18n-alt="packageFourImageAlt"></div>
+            <div class="package-content">
+              <div class="package-title-line"><h3 data-i18n="packageFourName">Package Four</h3><span class="package-index">04</span></div>
+              <p class="package-description" data-i18n="packageFourDescription">A flower-inspired play setup with a ball pit and bouncy castle.</p>
+              <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong>CAD $520</strong></p>
+              <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+              <h4 data-i18n="includedLabel">Included equipment</h4>
+              <ul class="equipment-list"><li data-i18n="castleNineByEleven">9 × 11 ft bouncy castle</li><li data-i18n="ballPitSix">6 ft square ball pit</li><li data-i18n="climbSlide">Climb & slide</li><li data-i18n="mats">Mats</li><li data-i18n="flowerShape">Flower shape</li><li data-i18n="playHouse">Play house</li></ul>
+              <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="four"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="package-card">
+            <div class="package-picture"><img src="assets/images/catalog-package-5.jpg" alt="Catalog photo for Package Five" data-i18n-alt="packageFiveImageAlt"></div>
+            <div class="package-content">
+              <div class="package-title-line"><h3 data-i18n="packageFiveName">Package Five</h3><span class="package-index">05</span></div>
+              <p class="package-description" data-i18n="packageFiveDescription">A colourful play setup with a ball pit, bridge and bounce fence.</p>
+              <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong>CAD $420</strong></p>
+              <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+              <h4 data-i18n="includedLabel">Included equipment</h4>
+              <ul class="equipment-list"><li data-i18n="ballPitFour">4 ft square ball pit</li><li data-i18n="tunnelClimbSlide">Tunnel, climb & slide</li><li data-i18n="mats">Mats</li><li data-i18n="twoHoppers">2 hoppers</li><li data-i18n="bounceFence">Bounce fence</li><li data-i18n="buildingBlocks">Building blocks</li><li data-i18n="bridge">Bridge</li></ul>
+              <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="five"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="package-card">
+            <div class="package-picture"><img src="assets/images/catalog-package-6.jpg" alt="Catalog photo for Package Six" data-i18n-alt="packageSixImageAlt"></div>
+            <div class="package-content">
+              <div class="package-title-line"><h3 data-i18n="packageSixName">Package Six</h3><span class="package-index">06</span></div>
+              <p class="package-description" data-i18n="packageSixDescription">A white play setup with a bouncy castle, ball pit and bounce car.</p>
+              <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong>CAD $670</strong></p>
+              <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+              <h4 data-i18n="includedLabel">Included equipment</h4>
+              <ul class="equipment-list"><li data-i18n="castleNineByEleven">9 × 11 ft bouncy castle</li><li data-i18n="ballPitFour">4 ft square ball pit</li><li data-i18n="climbSlide">Climb & slide</li><li data-i18n="mats">Mats</li><li data-i18n="bounceCar">Bounce car</li><li data-i18n="fences">Fences</li><li data-i18n="buildingBlocks">Building blocks</li></ul>
+              <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="six"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <article class="custom-package">
+          <img src="assets/images/catalog-package-5.jpg" alt="Sample photo for a custom soft play package" data-i18n-alt="customImageAlt">
+          <div class="custom-package-copy">
+            <p class="eyebrow" data-i18n="customEyebrow">A flexible option</p>
+            <h3 data-i18n="customName">Build Your Own Package</h3>
+            <p data-i18n="customDescription">Create a soft play package around your theme, space and budget. Final equipment is confirmed with the team.</p>
+            <p class="package-price"><span data-i18n="previewPriceLabel">Preview price</span><strong data-i18n="customPreviewPrice">Starting at CAD $370</strong></p>
+            <p class="package-duration"><span data-i18n="rentalDurationLabel">Standard rental</span><strong data-i18n="standardRental">Up to 5 hours</strong></p>
+            <a class="button button-primary package-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer" data-whatsapp-package="custom"><span data-i18n="availabilityButton">Ask about availability</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <p class="price-note"><span aria-hidden="true">✳</span> <span data-i18n="priceNote">These prices are temporary examples based on the old catalog plus CAD $70. Confirm current pricing and package contents before publishing.</span></p>
+      </section>
+
+      <section class="gallery-section" id="gallery">
+        <div class="section gallery-inner">
+          <div class="section-heading">
+            <div><p class="eyebrow" data-i18n="galleryEyebrow">A peek at the play</p><h2 data-i18n-html="galleryTitle">Little scenes,<br><em>big smiles.</em></h2></div>
+            <p data-i18n="galleryDescription">These catalog photos are included for this temporary preview. Replace them if you provide updated playground photos.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-large"><img src="assets/images/catalog-package-1.jpg" alt="Soft play setup from the old catalog" data-i18n-alt="galleryAltOne"><figcaption data-i18n="galleryCaptionOne">The play space</figcaption></figure>
+            <figure class="gallery-item gallery-small"><img src="assets/images/catalog-package-3.jpg" alt="Pink play setup from the old catalog" data-i18n-alt="galleryAltTwo"><figcaption data-i18n="galleryCaptionTwo">Colourful moments</figcaption></figure>
+            <figure class="gallery-item gallery-small"><img src="assets/images/catalog-package-6.jpg" alt="White play setup from the old catalog" data-i18n-alt="galleryAltThree"><figcaption data-i18n="galleryCaptionThree">Made for celebrations</figcaption></figure>
+          </div>
+          <p class="placeholder-note" data-i18n="galleryNote">Photos are from the old catalog and are shown for preview only.</p>
+        </div>
+      </section>
+
+      <section class="section details-section" id="details">
+        <div class="section-heading">
+          <div><p class="eyebrow" data-i18n="detailsEyebrow">The helpful details</p><h2 data-i18n-html="detailsTitle">Good to <em>know.</em></h2></div>
+          <p data-i18n="detailsDescription">A few simple details to help you plan your little one’s celebration.</p>
+        </div>
+        <div class="details-grid">
+          <article class="detail-card detail-hours"><span class="detail-icon" aria-hidden="true">◷</span><p class="detail-kicker" data-i18n="hoursKicker">PLAY TIME</p><h3 data-i18n="hoursTitle">Up to 5 hours</h3><p data-i18n="hoursDescription">Additional hours may be available for an extra fee, subject to availability.</p></article>
+          <article class="detail-card detail-delivery"><span class="detail-icon" aria-hidden="true">⌖</span><p class="detail-kicker" data-i18n="deliveryKicker">DELIVERY & SETUP</p><h3 data-i18n="deliveryTitle">We bring the fun</h3><p data-i18n="deliveryDescription">The delivery fee depends on your location. Setup and takedown are included.</p></article>
+          <article class="detail-card detail-areas"><span class="detail-icon" aria-hidden="true">♡</span><p class="detail-kicker" data-i18n="areasKicker">WHERE WE GO</p><h3 data-i18n="areasTitle">Our service areas</h3><p class="area-list" data-i18n="areasList">Mississauga · Brampton · Oakville · Milton · Toronto</p><p data-i18n="areasDescription">Currently serving these areas only.</p></article>
+        </div>
+        <p class="cad-note" data-i18n="cadNote">All prices and any additional-hour fees are quoted in CAD when you inquire.</p>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="section faq-layout">
+          <div class="faq-intro"><p class="eyebrow" data-i18n="faqEyebrow">Questions? We’ve got you.</p><h2 data-i18n-html="faqTitle">The little<br><em>FAQs.</em></h2><p data-i18n="faqDescription">Still wondering about something? Send us a message and a real person can help.</p><a class="text-cta" href="#booking"><span data-i18n="faqLink">Ask us directly</span> <span aria-hidden="true">↗</span></a></div>
+          <div class="faq-list">
+            <details><summary data-i18n="faqOneQuestion">How long is the rental?</summary><p data-i18n="faqOneAnswer">Rental time is up to 5 hours. Additional hours may be available for an extra fee, subject to availability.</p></details>
+            <details><summary data-i18n="faqTwoQuestion">Is delivery and setup included?</summary><p data-i18n="faqTwoAnswer">Setup and takedown are included. Delivery fees depend on your location; please share your city and postal code for a quote.</p></details>
+            <details><summary data-i18n="faqThreeQuestion">What areas do you serve?</summary><p data-i18n="faqThreeAnswer">We currently serve Mississauga, Brampton, Oakville, Milton and Toronto.</p></details>
+            <details><summary data-i18n="faqFourQuestion">How do I ask about a package?</summary><p data-i18n="faqFourAnswer">Fill in the inquiry form below. It opens WhatsApp with a message for you to review and send. This is an inquiry, not a confirmed reservation.</p></details>
+            <details><summary data-i18n="faqFiveQuestion">What does a package cost?</summary><p data-i18n="faqFiveAnswer">Pricing is shared after you inquire. No package price or availability is assumed on this website.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking">
+        <div class="booking-decor" aria-hidden="true">✳</div>
+        <div class="booking-inner">
+          <div class="booking-copy">
+            <p class="eyebrow" data-i18n="bookingEyebrow">Let’s make room for fun</p>
+            <h2 data-i18n-html="bookingTitle">Tell us about<br>your <em>day.</em></h2>
+            <p data-i18n="bookingDescription">Share a few details and we’ll prepare a WhatsApp message for you. Nothing is booked until you speak with us and receive confirmation.</p>
+            <div class="booking-note"><span aria-hidden="true">♡</span><span data-i18n="bookingNote">Your message opens in WhatsApp so you can review it before sending.</span></div>
+          </div>
+          <form class="booking-form" id="booking-form" novalidate>
+            <div class="form-row">
+              <label><span data-i18n="formName">Your name</span><input name="name" type="text" autocomplete="name" required data-i18n-placeholder="namePlaceholder" placeholder="How should we address you?"></label>
+              <label><span data-i18n="formDate">Event date</span><input name="date" type="date" required></label>
+            </div>
+            <div class="form-row">
+              <label><span data-i18n="formCity">City</span><input name="city" type="text" autocomplete="address-level2" required data-i18n-placeholder="cityPlaceholder" placeholder="e.g. Mississauga"></label>
+              <label><span data-i18n="formPostal">Postal code</span><input name="postal" type="text" autocomplete="postal-code" required data-i18n-placeholder="postalPlaceholder" placeholder="Your postal code"></label>
+            </div>
+            <div class="form-row">
+              <label><span data-i18n="formPackage">Package</span><select name="package" required><option value="" data-i18n="packagePlaceholder">Choose a package</option><option value="Package One" data-i18n="packageOneName">Package One</option><option value="Package Two" data-i18n="packageTwoName">Package Two</option><option value="Package Three" data-i18n="packageThreeName">Package Three</option><option value="Package Four" data-i18n="packageFourName">Package Four</option><option value="Package Five" data-i18n="packageFiveName">Package Five</option><option value="Package Six" data-i18n="packageSixName">Package Six</option><option value="Build Your Own Package" data-i18n="customName">Build Your Own Package</option></select></label>
+              <label><span data-i18n="formTime">Event start time</span><input name="time" type="time" required></label>
+            </div>
+            <label><span data-i18n="formNotes">Optional notes</span><textarea name="notes" rows="3" data-i18n-placeholder="notesPlaceholder" placeholder="Anything else you’d like us to know?"></textarea></label>
+            <button class="button button-primary form-submit" type="submit"><span data-i18n="formSubmit">Continue to WhatsApp</span><span aria-hidden="true">↗</span></button>
+            <p class="form-disclaimer" data-i18n="formDisclaimer">This sends an inquiry only. It does not reserve or confirm a rental.</p>
+            <p class="form-error" id="form-error" role="alert" hidden></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home" data-i18n-aria="homeAria"><img class="brand-logo" src="assets/images/bounceland-catalog-logo.png" alt="Bounceland Playground logo" data-i18n-alt="brandLogoAlt"></a>
+      <p data-i18n="footerLine">Little guests. Big happy moments.</p>
+      <div class="footer-right"><a href="tel:+14372542622">+1 437-254-2622</a><span>Mississauga, Ontario</span><span>© <span id="year"></span> Bounceland Playground</span></div>
+    </footer>
+    <a class="floating-whatsapp" href="https://wa.me/14372542622" target="_blank" rel="noopener noreferrer"><span class="whatsapp-icon" aria-hidden="true">✆</span><span data-i18n="chatButton">Chat With Us</span></a>
+  </body>
+</html>
