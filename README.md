@@ -72,6 +72,25 @@ https://exito2026.github.io/bounceland-website/
 
 To publish future updates, push the changed website files to the repository's `main` branch. GitHub Pages serves the files from the root of that branch.
 
+## Development commits
+
+For this college project, changes should be committed in small, meaningful groups:
+
+- commit the page structure after completing a section;
+- commit the design and responsive changes as a separate update;
+- commit English and Spanish translations together;
+- commit catalog or image updates with a short description;
+- commit documentation and presentation reflections separately.
+
+Example commit messages:
+
+- `Create bilingual package catalog`
+- `Add mobile responsive layout`
+- `Update WhatsApp booking inquiry`
+- `Document project for presentation`
+
+Do not create empty commits. A useful commit contains a complete change that can be explained in one sentence.
+
 ## Update the project
 
 - **Packages, descriptions and included equipment:** edit the package cards in `index.html`. The current cards come from an old catalog and are temporary.
